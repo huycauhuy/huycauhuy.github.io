@@ -1030,7 +1030,10 @@ ul.social-icons li a.google {
 /*-------------------------------------------------*/
 /* =  Skin02 added
 /*-------------------------------------------------*/
+.bg-color1{
+    background: #2c3e50;
 
+}
 .skin2 .navbar {
     background: #e64534 !important;
 }
