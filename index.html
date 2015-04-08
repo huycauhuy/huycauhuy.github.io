@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>Landing Page</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700" rel="stylesheet" type="text/css">
@@ -11,8 +11,30 @@
 		<script src="js/jquery-migrate.js" type="text/javascript"></script>
 		<script src="js/functions.js" type="text/javascript"></script>
 		<script src="js/get_cookie.js" type="text/javascript"></script>
+
+	 <script language="JavaScript" type="text/javascript">
+
+    //chose which page to go to
+    function Link() {
+      if (document.fred.r1[0].checked) {
+        window.top.location = 'http://kshowonline.com/list';
+      }
+      if (document.fred.r1[1].checked) {
+        window.top.location = 'https://www.google.com/';
+      }
+      if (document.fred.r1[2].checked) {
+        window.top.location = 'https://www.yahoo.com/';
+      }
+      if (document.fred.r1[3].checked) {
+        window.top.location = 'https://nodejs.org/';
+      }
+    }
+
+     //-->
+  </script>
+
 	</head>
-	<body onload="get_cookie()">
+	<body onload="get_cookie();Link();">
 
 	<div class="site-container">
 
@@ -25,7 +47,7 @@
 
 		<div class="section section-content" id="section-content">
 
-			<h1 class="title" id="section-content-title">The Last Lead Generation Tool Your Business Will Ever Need</h1>
+			<h1 class="title" id="section-content-title">Input Your Title Here</h1>
 
 			<div class="video-wrap" id="section-content-video-wrap">
 
@@ -43,25 +65,13 @@
 					<img src="img/arrow.png" id="section-content-arrow">
 				</div>
 
-				<a onclick="set_cookies1()" href="#/optin" class="button" id="section-content-button">
-					<u>Click Here</u> to Get Access Now
-				</a>
-
-
-				<a onclick="set_cookies2()" href="#/optin" class="button1" id="section-content-button">
-					<u>Click Here</u> to Get Access Now
-				</a>
-
-
-				<a onclick="set_cookies3()" href="#/optin" class="button2" id="section-content-button">
-					<u>Click Here</u> to Get Access Now
-				</a>
-
-
-				<a onclick="set_cookies4()" href="#/optin" class="button3" id="section-content-button">
-					<u>Click Here</u> to Get Access Now
-				</a>
-
+<form class="form" id="form" title="f19_Include" name="fred">
+    <INPUT type="radio" class="choices" name="r1">Type 1
+    <INPUT type="radio" class="choices"  name="r1">Type 2
+    <INPUT type="radio" class="choices"  name="r1">Type 3 
+    <INPUT type="radio" class="choices"  name="r1">Type 4
+    <INPUT type="button" class="button" value="GO" onclick="Link();">
+  </form>
 				
 
 			</div>
