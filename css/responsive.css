@@ -66,6 +66,8 @@
         width: 293px;
     }
 
+    
+
     .contact-info ul li span.label.address {
         margin-bottom: 20px;
     }
@@ -101,14 +103,31 @@
         width: 220px;
     }
 
+    #about{
+        padding-bottom: 350px;
+    }
+
     .team-member {
         max-width: 300px;
         margin: 0 auto 30px;
     }
 
+    .team{
+       
+        margin: 0 auto auto;        
+
+    }
+
     .contact-info ul li span.label.address {
         margin-bottom: 0px;
     }
+
+    .progres-bar {
+   
+    margin-left: 5%;
+    
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -143,7 +162,11 @@
 
     .project-post {
         width: 100%;
-        margin: 15px 0;
+    }
+
+    .team{
+       
+        margin: 0 auto auto;
     }
 }
 
