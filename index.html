@@ -26,7 +26,10 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen" />
 
+	<link rel="stylesheet" href="css/slider.css" type="text/css" media="screen" />
 
+   
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
@@ -45,9 +48,23 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 <body>
 
+
+
+	<ul id="navigation1">
+ 		<li data-slide="1" href="#home"  class="home1"><a href="#home" title="Home"></a></li>
+ 		<li data-slide="4" href="#portfolio" class="project1"><a href="#portfolio" title="Project"></a></li> 
+ 		<li data-slide="3" href="#services"  class="skill1"><a href="#services" title="Skill"></a></li>
+ 		<li data-slide="2" href="#about" class="about1"><a href="#about" title="About"></a></li> 			
+ 		<li data-slide="5" href="#contact" class="contact1"><a href="#contact" title="Contacts"></a></li>
+ 	</ul>
+
+
 	<!-- Container
 		    ================================================== -->
 	<div id="container">
+
+
+
 
 		<!-- Header
 		    ================================================== -->
@@ -215,21 +232,12 @@
 					</ul>
 
 					<div class="projects-container">
-						<div class="project-post web-design nature logo">
-							<img alt="" src="upload/1.jpg" />
-							<div class="project-content">
-								<div class="inner-project">
-									<h3>Helios.science</h3>
-									<span></span>
-									<a class="link-project" href="#first-popup">view project</a>								
-								</div>							
-							</div>
-						</div>
+						
 						<div class="project-post nature photography business-card">
 							<img alt="" src="upload/2.jpg" />
 							<div class="project-content">
 								<div class="inner-project">
-									<h3>huymai.me</h3>
+									<h3>Semi-Autonomous Rover</h3>
 									<span></span>
 									<a class="link-project" href="#first-popup1">view project</a>								
 								</div>						
@@ -440,19 +448,17 @@
 			<div class="flexslider">
 			    <ul class="slides">
 					<li>
-						<img alt="" src="upload/single-project/1.jpg" />
+						<img alt="" src="upload/single-project/Rover1.jpg" />
 					</li>
 					<li>
-						<img alt="" src="upload/single-project/2.jpg" />
+						<img alt="" src="upload/single-project/Rover2.jpg" />
 					</li>
-					<li>
-						<img alt="" src="upload/single-project/3.jpg" />
-					</li>
+					
 				</ul>
 			</div>
 			
 			<h2>Useful Seo Icons</h2>
-			<p>work hard</p>
+			<h >This is the a Semi-Autonomous Rovers project the I am currently working on with my SJSU robotics club. The Rovers will be finished in May 2015 and shipped to Houston for the Nasa NIA Robo Ops competition with 6 other schools. The Rovers can be controlled wirelessly from our main base here at SJSU. For this project, my responsibility is to develop a sensor system for the rover such as compass, GPS, orientation, power tracking. In addition, I am also help develop a mimic arm for us to get an edge in the competition by allowing easier and more precise control of the arm. The mimic arm is a scale down model of the bigger arm that will act as a controller for the bigger arm.  </h>
 			
 		</div>
 	</div>
@@ -522,6 +528,8 @@
 			
 		</div>
 	</div>
+
+	
 
 	<!--
 	##############################
@@ -618,5 +626,8 @@
 				// END OF THE SECTION, HIDE MY ARROWS SEPERATLY FROM THE BULLETS
 			});
 	</script>
+
+<script type="text/javascript" src="js/jquery.leftbar.js"></script>
+
 </body>
 </html>

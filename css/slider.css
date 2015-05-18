@@ -1,0 +1,51 @@
+
+ul#navigation1 {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 25%;
+    left: 0px;
+    list-style: none;
+    z-index:9999;
+}
+
+ul#navigation1 li {
+    width: 100px;
+    
+}
+
+ul#navigation1 li a {
+    display: block;
+    margin-left: -2px;
+    width: 100px;
+    height: 70px;
+    background-color:#CFCFCF;
+    background-repeat:no-repeat;
+    background-position:center center;
+    border:1px solid #AFAFAF;
+    -moz-border-radius:0px 10px 10px 0px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -khtml-border-top-right-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    opacity: 0.7;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);         
+    -moz-box-shadow: 0px 4px 3px #000;                                              
+    -webkit-box-shadow: 0px 4px 3px #000;               
+}
+
+ul#navigation1 .home1 a{
+    background-image: url(../images/home1.png);
+}
+ul#navigation1 .about1 a      {
+    background-image: url(../images/about1.png);
+}
+ul#navigation1 .skill1 a      {
+    background-image: url(../images/skill1.png);
+}
+ul#navigation1 .project1 a      {
+    background-image: url(../images/project1.png);
+}
+ul#navigation1 .contact1 a    {
+    background-image: url(../images/contact1.png);
+}
